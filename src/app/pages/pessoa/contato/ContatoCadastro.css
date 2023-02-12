@@ -1,0 +1,11 @@
+.upload-input {
+    display: none
+}
+
+.icon-placeholder {
+    width: 64px;
+    height: 64px;
+    border: 1px solid var(--label-campo);
+    background-color: #efefef;
+    display: inline-block;
+}

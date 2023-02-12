@@ -1,0 +1,23 @@
+.button-custom {
+    background-color: #fff;
+    color: var(--cor-principal);
+    font-family: 'Rawline', sans-serif;
+    border-radius: 20px;
+    font-weight: 300;
+    border: 1px solid var(--cor-principal);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.lista-sistemas > a {
+    text-decoration: none !important;
+}
+
+.p-card {
+    max-width: 196px;
+    width: 196px;
+}
+
+.text-custom {
+    color: var(--cor-texto)
+}

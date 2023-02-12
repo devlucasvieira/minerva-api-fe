@@ -1,0 +1,16 @@
+{
+  "MN001": "Campo obrigatório",
+  "MN002": "Email invalido",
+  "MN003": "Registro excluído com sucesso",
+  "MN004": "Falha ao excluir usuário",
+  "MN005": "Registro cadastrado com sucesso.",
+  "MN006": "Falha ao cadastrar usuário.",
+  "MA001": "Campo atingiu tamanho limite",
+  "MN007": "O ícone deve possuir dimensao de 64x64",
+  "MN008": "Campo não pode possuir espaços",
+  "MN009": "Não há mais registro.",
+  "MN010": "Este registro está inativo, portanto seus dados não podem ser manipulados.",
+  "MN011": "A sigla informada já foi está cadastrada.",
+  "MN012": "Cadastrado com sucesso",
+  "MN013": "Falha ao cadastrar. Tente novamente."
+}

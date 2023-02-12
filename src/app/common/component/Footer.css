@@ -1,0 +1,21 @@
+.footer-container {
+	padding-left: 0 !important;
+}
+
+@media screen and (max-width: 850px) {
+	.footer-container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		font-size: 12px;
+	}
+
+	.logo-set {
+		width: 100px !important;
+	}
+
+	.logo-sefaz {
+		width: 130px !important;
+	}
+}

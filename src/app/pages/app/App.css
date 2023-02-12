@@ -1,0 +1,31 @@
+.nome {
+	color: #004266;
+	text-transform: capitalize;
+}
+
+.container .p-breadcrumb {
+	background: white;
+	border-bottom: 1px solid #ced4da;
+}
+
+@media screen and (max-width: 1000px) {
+	.items-nav {
+		display: none !important;
+	}
+
+	.logo-img {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.text-responsive {
+		width: 180px;
+	}
+}
+
+@media screen and (max-width: 366px) {
+	.logo-container {
+		display: none;
+	}
+}

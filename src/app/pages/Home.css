@@ -1,0 +1,164 @@
+/* desktop */
+.image-fit {
+	object-fit: cover;
+	width: 100%;
+}
+
+.login-container {
+    padding: 3rem;
+    background: white;
+    border-radius: 30px;
+	position: absolute;
+	width: 445px;
+	height: 562px;
+	top: 182px;
+}
+
+.login-container h4 {
+	font-size: 1.3rem;
+}
+
+.nav-link {
+	color: #FFF;
+	font-weight: 500;
+	font-size: 1rem;
+	white-space: nowrap;
+}
+
+.nav-link:hover {
+	background: #283044;
+	color: #fff;
+	opacity: 0.9;
+}
+
+.img-logo {
+	width: 220px;
+}
+
+.border-blue {
+	border-bottom: 18px solid #283044;
+}
+
+.title-login {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #283044;
+}
+
+.input-form {
+	background: #EAEAEA;
+	border: 1px solid #DCDCDC;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+}
+
+.bread-wrapper .br-breadcrumb {
+	padding: 2rem 0;
+}
+
+/* smartphone */
+@media screen and (max-width: 833px) {
+	.login-container {
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		align-self: center;
+	}
+
+	.descricao-set {
+		font-size: 11px;
+	}
+
+	.image-container {
+		display: none !important;
+	}
+
+	.img-logo {
+		display: none !important;
+	}
+	.nav-items-home {
+		display: none !important;
+	}
+	.home-wrapper .navbar-toggler-icon {
+		display: block;
+	}
+
+	.home-wrapper .button-toggle {
+		display: block;
+	}
+
+	.login-container h3 {
+		font-size: 2rem;
+	}
+	.navbar-brand {
+		margin: 0;
+	}
+
+	.home-wrapper {
+		padding: 0 !important;
+	}
+}
+
+/* tablet */
+@media screen and (min-width: 834px) and (max-width: 1200px) {
+	.login-container {
+		width: 60%;
+		align-items: center;
+		justify-content: center;
+		align-self: center;
+		margin: 0 auto;
+	}
+
+	.nav-items-home {
+		display: none !important;
+	}
+	.home-wrapper .navbar-toggler-icon {
+		display: block;
+	}
+
+	.home-wrapper .button-toggle {
+		display: block;
+	}
+
+	.descricao-set {
+		font-size: 12.5px;
+	}
+	.login-container h3 {
+		font-size: calc(1.6rem + 0.6vw);
+	}
+
+	.image-container {
+		display: none !important;
+	}
+
+	.img-logo {
+		display: none !important;
+	}
+
+	.navbar-brand {
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+	.login-container {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.descricao-set {
+		font-size: 8.6px;
+	}
+
+	.img-logo {
+		display: none;
+	}
+
+	.login-container h3 {
+		font-size: 1.4rem;
+	}
+}
